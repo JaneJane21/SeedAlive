@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Живое Семечко</title>
+    <link rel="website icon" type="svg" href="assets/logo.svg">
+    <link rel="stylesheet" href="goodsstyle.css">
+</head>
+
+<body>
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+        <a href="#trees" class="w3-bar-item w3-button">Деревья</a>
+        <a href="#flowers" class="w3-bar-item w3-button">Цветы</a>
+        <a href="#garden" class="w3-bar-item w3-button">Товары для сада</a>
+        <a href="#seeds" class="w3-bar-item w3-button">Семена и удобрения</a>
+    </div>
+    <div class="main-content ">
+        <button class="w3-button w3-teal w3-xlarge" id="burger" onclick="w3_open()">☰</button>
+            
+        <header class="header container">
+            <div class="header-content">
+                
+                <div class="logo">
+                    <a class="logo-img" href="#"><img src="assets/logo.svg" alt="logo"></a>
+                    <a class="logo-text" href="#">
+                        <p class="logo-title">живое семечко</p>
+                        <p class="logo-subtitle">садовый центр</p>
+                    </a>
+                </div>
+                <nav class="nav">
+                    <a href="mainpage.html">Главная</a>
+                    <a href="goods.html">Каталог товаров</a>
+                </nav>
+            </div>
+            
+        </header>
+        <div class="decor"></div>
+        <main class="main container">
+            <h3 class="promo">Для заказа товаров, пожалуйста, обращайтесь по телефону <br> +7 957 254 23 13</h3>
+            <article id="trees">
+                <div class="head">
+                    <h2>Деревья</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="goods wrapper">
+                    <div class="goods-item">
+                        <img src="assets/trees/apple.jpg" alt="">
+                        <p class="p-main">Яблоня</p>
+                        <p class="p-sub">Стоимость: 4500 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/trees/apricot.jpg" alt="">
+                        <p class="p-main">Абрикос</p>
+                        <p class="p-sub">Стоимость: 12200 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/trees/berry.jpg" alt="">
+                        <p class="p-main">Боярышник плодовый</p>
+                        <p class="p-sub">Стоимость: 7400 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/trees/grape.jpg" alt="">
+                        <p class="p-main">Виноград плодовый</p>
+                        <p class="p-sub">Стоимость: 10000 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/trees/blueberry.png" alt="">
+                        <p class="p-main">Голубика</p>
+                        <p class="p-sub">Стоимость: 6800 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/trees/cherry.jpeg" alt="">
+                        <p class="p-main">Вишня</p>
+                        <p class="p-sub">Стоимость: 16800 рублей</p>
+                    </div>
+                </div>
+            </article>
+
+            <article id="flowers">
+                <div class="head">
+                    <h2>Цветы</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="goods wrapper">
+                    <div class="goods-item">
+                        <img src="assets/flowers/iefon.jpg" alt="">
+                        <p class="p-main">Ифейон</p>
+                        <p class="p-sub">Стоимость: 4000 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/flowers/gortenzia.jpeg" alt="">
+                        <p class="p-main">Гортензия</p>
+                        <p class="p-sub">Стоимость: 1220 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/flowers/mirsina.jpg" alt="">
+                        <p class="p-main">Мирсина</p>
+                        <p class="p-sub">Стоимость: 740 рублей</p>
+                    </div>
+                    
+                </div>
+            </article>
+
+            <article id="garden">
+                <div class="head">
+                    <h2>Товары для сада</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="goods wrapper">
+                    <div class="goods-item">
+                        <img src="assets/garden/secator.jpg" alt="">
+                        <p class="p-main">Садовый секатор</p>
+                        <p class="p-sub">Стоимость: 500 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/garden/tachka.jpg" alt="">
+                        <p class="p-main">Садовая тачка</p>
+                        <p class="p-sub">Стоимость: 3000 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/garden/grabli.jpg" alt="">
+                        <p class="p-main">Стальные веерные грабли</p>
+                        <p class="p-sub">Стоимость: 2000 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/garden/leika.jpg" alt="">
+                        <p class="p-main">Садовая лейка</p>
+                        <p class="p-sub">Стоимость: 400 рублей</p>
+                    </div>
+                    
+                </div>
+            </article>
+
+            <article id="seeds">
+                <div class="head">
+                    <h2>Семена и удобрения</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="goods wrapper">
+                    <div class="goods-item">
+                        <img src="assets/seeds/springs.jpg" alt="">
+                        <p class="p-main">Удобрение весеннее</p>
+                        <p class="p-sub">Стоимость: 760 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/seeds/bones.jpeg" alt="">
+                        <p class="p-main">Удобрение для косточковых</p>
+                        <p class="p-sub">Стоимость: 1100 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/seeds/tomato.jpg" alt="">
+                        <p class="p-main">Семена томата</p>
+                        <p class="p-sub">Стоимость: 350 рублей</p>
+                    </div>
+                    <div class="goods-item">
+                        <img src="assets/seeds/carrot.jpg" alt="">
+                        <p class="p-main">Семена моркови</p>
+                        <p class="p-sub">Стоимость: 590 рублей</p>
+                    </div>
+            </article>
+            <h3 class="promo">Для заказа товаров, пожалуйста, обращайтесь по телефону <br> +7 957 254 23 13</h3>
+
+            
+
+        </main>
+        <div class="decor"></div>
+        <footer class="footer container">
+            
+            <div class="footer-content">
+                <div class="logo">
+                    <a class="logo-img" href="#"><img src="assets/logo.svg" alt="logo"></a>
+                    <a class="logo-text" href="#">
+                        <p class="logo-title">живое семечко</p>
+                        <p class="logo-subtitle">садовый центр</p>
+                    </a>
+                </div>
+                <div class="links">
+                    <a href="#"><img src="assets/mail.svg" alt="mail"></a>
+                    <a href="#"><img src="assets/twitter.svg" alt="twitter"></a>
+                    <a href="#"><img src="assets/phone.svg" alt="phone"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="sidebar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.article-content{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.line{
+    display: none;
+}
+.article-content-text{
+    width: 90%;
+}
+.article-content-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.article-content-img img{
+    width: 40%;
+}
+.winter-grow{
+    flex-grow: 2;
+}
+
+@media (max-width: 1024px) {
+    .article-content-img{
+        flex-direction: column;
+    }
+    .article-content-img img{
+        width: 70%;
+    }
+}
