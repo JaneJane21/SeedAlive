@@ -274,8 +274,8 @@ h2{
         width: 250px;
     }
     :root{
-        --header-fs: 30px;
-        --text-reg-fs: 25px;
+        --header-fs: 25px;
+        --text-reg-fs: 22px;
         --text-small-fs: 20px;
     }
     .header-content{
@@ -293,7 +293,7 @@ h2{
         margin-bottom: 30px;
     }
     header, footer {
-        padding: 35px 45px;
+        padding: 20px 25px;
     }
     article{
         padding: 50px 30px;
@@ -303,11 +303,7 @@ h2{
     }
 }
 @media (max-width: 614px){
-    :root{
-        --header-fs: 25px;
-        --text-reg-fs: 22px;
-        --text-small-fs: 20px;
-    }
+
     .article-content-img img{
         width: 70%;
         height: 70%;
@@ -318,12 +314,11 @@ h2{
         justify-content: center;
     }
     .logo-title{
-        font-size: 25px;
+        font-size: 20px;
     
     }
     .logo-subtitle{
-        color: var(--green);
-        font-size: 16px;
+        font-size: 15px;
     }
     .line{
         width: 150px;
