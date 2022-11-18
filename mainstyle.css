@@ -104,7 +104,7 @@ nav a:not(:last-child){
 .decor{
     background-image: url(assets/main-pattern.svg);
     height: 50px;
-    margin: 92px auto;
+    margin: 40px auto;
     width: 100%;
 }
 
