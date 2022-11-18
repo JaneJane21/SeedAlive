@@ -302,8 +302,8 @@ h2{
     :root{
 
         --header-fs: 30px;
-        --text-reg-fs: 20px;
-        --text-small-fs: 15px;
+        --text-reg-fs: 25px;
+        --text-small-fs: 20px;
 
     }
     
@@ -318,9 +318,9 @@ h2{
     }
     :root{
 
-        --header-fs: 18px;
-        --text-reg-fs: 14px;
-        --text-small-fs: 12px;
+        --header-fs: 25px;
+        --text-reg-fs: 22px;
+        --text-small-fs: 20px;
 
     }
     .line{
@@ -403,9 +403,9 @@ h2{
     }
     :root{
 
-        --header-fs: 14px;
-        --text-reg-fs: 12px;
-        --text-small-fs: 10px;
+        --header-fs: 20px;
+        --text-reg-fs: 20px;
+        --text-small-fs: 13px;
 
     }
 }
