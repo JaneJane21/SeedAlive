@@ -318,7 +318,6 @@ h2{
         justify-content: center;
     }
     .logo-title{
-        color: var(--brown);
         font-size: 25px;
     
     }
@@ -344,12 +343,9 @@ h2{
         --text-small-fs: 13px;
     }
     .logo-title{
-        color: var(--brown);
         font-size: 18px;
-    
     }
     .logo-subtitle{
-        color: var(--green);
         font-size: 10px;
     }
     .line{

@@ -269,6 +269,15 @@ h2{
     h3{
         font-size: 25px;
     }
+    header, footer {
+        padding: 35px 45px;
+    }
+    article{
+        padding: 50px 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
 }
 @media (max-width: 960px){
     h3{
@@ -280,9 +289,6 @@ h2{
     article{
         padding: 40px 110px;
 
-    }
-    .footer-content{
-        flex-direction: column;
     }
 }
 @media (max-width: 770px){
@@ -325,12 +331,17 @@ h2{
     }
     .logo-title{
         font-size: 25px;
+    
     }
     .logo-subtitle{
-        font-size: 20px;
+        color: var(--green);
+        font-size: 16px;
     }
     .wrapper{
         grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    }
+    .logo-img img{
+        width: 70%;
     }
 }
 @media (max-width: 483px){
@@ -355,13 +366,16 @@ h2{
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
     .logo-title{
-        font-size: 17px;
+        font-size: 18px;
     }
     .logo-subtitle{
-        font-size: 12px;
+        font-size: 10px;
     }
     header, footer {
-        padding: 20px 20px;
+        padding: 20px 25px;
+    }
+    .logo-img {
+        margin-right: -3px;
     }
 }
 @media (max-width: 364px){
@@ -369,7 +383,7 @@ h2{
         grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     }
     .logo-title{
-        font-size: 15px;
+        font-size: 18px;
     }
     .logo-subtitle{
         font-size: 10px;
